@@ -1,0 +1,31 @@
+
+.navContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeeeee;
+  }
+  
+
+  
+  .link {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding:20px;
+    float: left;
+
+  }
+  
+  .link:hover:not(.active) {
+    background-color: #333333;
+    color:#eeeeee
+  }
+  
+  .active {
+    background-color: #333333;
+    color:#eeeeee
+  }

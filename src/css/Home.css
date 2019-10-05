@@ -1,0 +1,30 @@
+.homeContainer {
+    overflow: scroll;
+}
+.sloganContainer {
+    text-align: center;
+    vertical-align: center;
+    margin:0;
+    width:100%;
+    color: #ffffff;
+    height:300px;
+    font-family: serif;
+    font-size: 30px;
+    line-height: 300px;
+    background-size: 100%,100%;
+    background-attachment: relative;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url('/img/nature.jpg')
+}
+.sloganText {
+    margin:0;
+}
+.itemsContainer{
+    width:100%;
+}
+.itemsContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
